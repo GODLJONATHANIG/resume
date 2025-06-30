@@ -3,20 +3,20 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML", icon: "/src/assets/html.webp", level: 95, category: "frontend" },
-  { name: "CSS", icon: "/src/assets/css.webp", level: 95, category: "frontend" },
-  { name: "JavaScript", icon: "/src/assets/javascript.webp", level: 90, category: "frontend" },
-  { name: "React", icon: "/src/assets/react.svg", level: 90, category: "frontend" },
-  { name: "Tailwind CSS", icon: "/src/assets/tailwind.webp", level: 90, category: "frontend" },
-  { name: "Bootstrap", icon: "/src/assets/bootstrap.webp", level: 90, category: "frontend" },
+  { name: "HTML", icon: "/assets/html.webp", level: 95, category: "frontend" },
+  { name: "CSS", icon: "/assets/css.webp", level: 95, category: "frontend" },
+  { name: "JavaScript", icon: "/assets/javascript.webp", level: 90, category: "frontend" },
+  { name: "React", icon: "/assets/react.svg", level: 90, category: "frontend" },
+  { name: "Tailwind CSS", icon: "/assets/tailwind.webp", level: 90, category: "frontend" },
+  { name: "Bootstrap", icon: "/assets/bootstrap.webp", level: 90, category: "frontend" },
 
   // Backend
-  { name: "Python", icon: "/src/assets/python.png", level: 80, category: "backend" },
-  { name: "MongoDB", icon: "/src/assets/mongodb.png", level: 70, category: "backend" },
-  { name: "MySQL", icon: "/src/assets/sql.png", level: 70, category: "backend" },
+  { name: "Python", icon: "/assets/python.png", level: 80, category: "backend" },
+  { name: "MongoDB", icon: "/assets/mongodb.png", level: 70, category: "backend" },
+  { name: "MySQL", icon: "/assets/sql.png", level: 70, category: "backend" },
   // Tools
-  { name: "Git/GitHub", icon: "/src/assets/github.webp", level: 90, category: "tools" },
-  { name: "Power BI", icon: "/src/assets/powerbi.png", level: 80, category: "tools" },
+  { name: "Git/GitHub", icon: "/assets/github.webp", level: 90, category: "tools" },
+  { name: "Power BI", icon: "/assets/powerbi.png", level: 80, category: "tools" },
 
 ];
 

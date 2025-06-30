@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Slot Booking For Vehicle Parking",
     description: "Created real-time mobile booking system with visual slot indicators, improving accuracy by 35%.",
-    image: "/src/assets/slot booking.jpg",
+    image: "/assets/slot booking.jpg",
     tags: ["Python", "Flutter", "MySQL","Android Studio"],
     githubUrl: "https://github.com/swastik3616/parking-lot-ui",
   },
@@ -14,7 +14,7 @@ const projects = [
     title: "Virtual Assistant Chatbot(JARVIS)",
     description:
       "Built an AI chatbot for text summarization, reminders, email parsing, and weather info.",
-    image: "/src/assets/chatbot.jpg",
+    image: "/assets/chatbot.jpg",
     tags: ["HTML/CSS", "Python", "Gemini API"],
     githubUrl: "https://github.com/swastik3616/Jarvis-using-Gemini-API",
   },
@@ -23,7 +23,7 @@ const projects = [
     title: "Hospital Management System",
     description:
       "Built admin panel for hospitals managing patients, doctors, billing, and services.",
-    image: "/src/assets/CLI.png",
+    image: "/assets/CLI.png",
     tags: ["Python", "MySQL"],
     githubUrl: "https://github.com/swastik3616/hospital_mgmt",
   },
