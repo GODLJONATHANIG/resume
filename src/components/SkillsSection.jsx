@@ -12,11 +12,11 @@ const skills = [
 
   // Backend
   { name: "Python", icon: "/assets/python.png", level: 80, category: "backend" },
-  { name: "MongoDB", icon: "/assets/mongodb.png", level: 70, category: "backend" },
-  { name: "MySQL", icon: "/assets/sql.png", level: 70, category: "backend" },
+  { name: "MongoDB", icon: "/assets/MongoDB.png", level: 70, category: "backend" },
+  { name: "MySQL", icon: "/assets/SQL.png", level: 70, category: "backend" },
   // Tools
-  { name: "Git/GitHub", icon: "/assets/github.webp", level: 90, category: "tools" },
-  { name: "Power BI", icon: "/assets/powerbi.png", level: 80, category: "tools" },
+  { name: "Git/GitHub", icon: "/assets/git.webp", level: 90, category: "tools" },
+  { name: "Power BI", icon: "/assets/powerBI.png", level: 80, category: "tools" },
 
 ];
 
