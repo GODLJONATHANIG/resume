@@ -21,15 +21,19 @@ export const ExperienceSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           My <span className="text-primary">Experience</span>
         </h2>
-        <div className="relative mt-12">
+        <div className="relative flex flex-col items-center">
           {/* Timeline vertical line */}
-          <div className="absolute top-0 left-1/2 transform -translate-x-1/2 h-full w-1 bg-primary z-0 sm:left-4 sm:translate-x-0" style={{ minHeight: '100%' }} />
-          <div className="flex flex-col gap-24 relative z-10 sm:gap-8">
+          <div className="hidden md:block absolute left-1/2 top-0 h-full w-1 bg-primary/40 z-0 transform -translate-x-1/2" />
+          <div className="flex flex-col gap-16 w-full">
             {experiences.map((exp, idx) => (
-              <div key={idx} className="flex items-center w-full relative min-h-[180px] sm:flex-col sm:items-start sm:min-h-0">
-                {/* Card full width on mobile, left on desktop */}
-                <div className="w-1/2 flex justify-end pr-8 sm:w-full sm:pr-0 sm:justify-center">
-                  <div className="bg-card p-8 rounded-lg shadow-lg max-w-xl w-full sm:pl-8">
+              <div key={idx} className="relative flex md:items-center w-full">
+                {/* Timeline dot */}
+                <div className="hidden md:flex flex-col items-center absolute left-1/2 top-0 z-10 -translate-x-1/2">
+                  <span className="w-5 h-5 rounded-full bg-primary border-4 border-white shadow-lg" />
+                </div>
+                {/* Card */}
+                <div className={`w-full md:w-1/2 px-0 md:px-8 ${idx % 2 === 0 ? 'md:pr-16 md:ml-auto' : 'md:pl-16 md:mr-auto'}`} style={{ zIndex: 1 }}>
+                  <div className="bg-card p-8 rounded-lg shadow-lg max-w-lg w-full mx-auto">
                     <h3 className="text-2xl font-bold mb-1">{exp.title}</h3>
                     <div className="text-lg text-muted-foreground mb-4">{exp.company}</div>
                     <ul className="list-disc pl-5 space-y-2 text-base">
@@ -40,8 +44,11 @@ export const ExperienceSection = () => {
                     <div className="text-sm text-muted-foreground mt-4">{exp.duration}</div>
                   </div>
                 </div>
-                {/* Empty right on desktop, hidden on mobile */}
-                <div className="w-1/2 sm:hidden" />
+                {/* Mobile timeline dot and line */}
+                <div className="md:hidden flex flex-col items-center mr-4">
+                  <div className="w-3 h-3 rounded-full bg-primary mb-2" />
+                  <div className="w-1 h-full bg-primary/40" />
+                </div>
               </div>
             ))}
           </div>
