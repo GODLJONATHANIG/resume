@@ -2,6 +2,34 @@ import React from "react";
 
 const experiences = [
   {
+    title: "Associate Software Engineer - Trainee",
+    company: "Mphasis Limited",
+    duration: "March 2025 – June 2025",
+    description: [
+      "Completed advanced training in Unix, Power BI, T-SQL, MongoDB, and Azure, improving deployment efficiency by 30%.",
+      "Developed a Hospital Management System using Python and MySQL, cutting patient data errors by 25%.",
+      "Created interactive dashboards for retail metrics in Power BI, reducing manual analysis time by 40%.",
+      "Streamlined KPI reporting with DAX, eliminating 60% of repetitive tasks and accelerating decisions"
+    ]
+  }
+  
+];
+[
+  {
+    title: "Assistant System Engineer - Trainee",
+    company: "TCS",
+    duration: "Aug 2024 – Oct 2024",
+    description: [
+      "Provisioned Windows/Linux servers on Hyper-V for simulated enterprise environments.",
+      "Diagnosed and resolved network issues, improving lab system availability by 20%.", 
+      "Implemented virtualization strategies and OS maintenance routines to enhance training setups.",
+    ]
+  }
+]
+
+
+[
+  {
     title: "Web Developer Intern",
     company: "RedCloud Technologies",
     duration: "April 2024 – August 2024",
