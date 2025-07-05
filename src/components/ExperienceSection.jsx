@@ -12,6 +12,7 @@ const experiences = [
       "Enhanced UI/UX using data from Google Analytics, lowering bounce rates by 22%."
     ]
   }
+  
 ];
 
 export const ExperienceSection = () => {

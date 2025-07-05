@@ -14,9 +14,14 @@ const skills = [
   { name: "Python", icon: "/assets/python.png", level: 80, category: "backend" },
   { name: "MongoDB", icon: "/assets/MongoDB.png", level: 70, category: "backend" },
   { name: "MySQL", icon: "/assets/SQL.png", level: 70, category: "backend" },
+  { name: "Firebase", icon: "/assets/firebase.png", level: 70, category: "backend" },
+
   // Tools
   { name: "Git/GitHub", icon: "/assets/git.webp", level: 90, category: "tools" },
   { name: "Power BI", icon: "/assets/powerBI.png", level: 80, category: "tools" },
+  { name: "Shopify", icon: "/assets/Shopify-Symbol.png", level: 80, category: "tools" },
+  { name: "WordPress", icon: "/assets/wordpress.webp", level: 80, category: "tools" },
+  { name: "vs code", icon: "/assets/vs-code.png", level: 80, category: "tools" },
 
 ];
 
