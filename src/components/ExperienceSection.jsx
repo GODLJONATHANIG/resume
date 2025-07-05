@@ -11,24 +11,17 @@ const experiences = [
       "Created interactive dashboards for retail metrics in Power BI, reducing manual analysis time by 40%.",
       "Streamlined KPI reporting with DAX, eliminating 60% of repetitive tasks and accelerating decisions"
     ]
-  }
-  
-];
-[
+  },
   {
     title: "Assistant System Engineer - Trainee",
-    company: "TCS",
+    company: "Tata Consultancy Services",
     duration: "Aug 2024 – Oct 2024",
     description: [
       "Provisioned Windows/Linux servers on Hyper-V for simulated enterprise environments.",
       "Diagnosed and resolved network issues, improving lab system availability by 20%.", 
       "Implemented virtualization strategies and OS maintenance routines to enhance training setups.",
     ]
-  }
-]
-
-
-[
+  },
   {
     title: "Web Developer Intern",
     company: "RedCloud Technologies",
@@ -40,7 +33,6 @@ const experiences = [
       "Enhanced UI/UX using data from Google Analytics, lowering bounce rates by 22%."
     ]
   }
-  
 ];
 
 export const ExperienceSection = () => {
