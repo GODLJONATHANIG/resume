@@ -27,6 +27,15 @@ const projects = [
     tags: ["Python", "MySQL"],
     githubUrl: "https://github.com/swastik3616/hospital_mgmt",
   },
+  {
+    id: 4,
+    title: "SmartBudget",
+    description:
+      "SmartBudget is a user-friendly personal finance dashboard that helps individuals track income, monitor expenses, set budgets, visualize spending trends, and achieve savings goals efficiently",
+    image: "/assets/SmartBudget.png",
+    tags: ["React.Js","Python","Flask","MongoDB"],
+    githubUrl: "https://github.com/swastik3616/smartbudget",
+  },
 ];
 
 export const ProjectsSection = () => {
